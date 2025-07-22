@@ -22,7 +22,7 @@ and for copy-paste, here's the raw version:
 [kettei]
 Server = https://ketteilinux.github.io/kettei-depo/$arch
 ```
-After doing this, you should install a fresh system using `pacstrap` since updating your current system might result in unforeseen consequences.
+After doing this, you should install a fresh system using `pacstrap` since updating your current system might result in unforeseen consequences. Make sure that your boot mount points to `/usr/boot/disk`
 
 ### How can I make one?
 I recommend you to follow [sainnhe](https://github.com/sainnhe)'s instructions on their blog. [**Here's the blog-post btw**](https://www.sainnhe.dev/post/create-personal-arch-linux-package-repository/)
