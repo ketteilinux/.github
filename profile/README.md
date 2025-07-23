@@ -20,7 +20,7 @@ Include = /etc/pacman.d/mirrorlist
 and for copy-paste, here's the raw version:
 ```
 [kettei]
-Server = https://ketteilinux.github.io/kettei-depo/$arch
+Server = https://ketteilinux.github.io/kettei-depo/base
 ```
 After doing this, you should install a fresh system using `pacstrap` since updating your current system might result in unforeseen consequences. Make sure that your boot mount points to `/usr/boot/`
 
