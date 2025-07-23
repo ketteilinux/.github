@@ -11,7 +11,7 @@ Here's a diff of how you're going to do that using `/etc/pacman.conf`
 ...
 
 + [kettei]
-+ Server = https://ketteilinux.github.io/kettei-depo/$arch
++ Server = https://ketteilinux.github.io/kettei-depo/base
 
 [core]
 Include = /etc/pacman.d/mirrorlist
